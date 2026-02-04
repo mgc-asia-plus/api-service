@@ -1,9 +1,9 @@
 package v1
 
 import (
-	"github.com/evrone/go-clean-template/internal/usecase"
-	"github.com/evrone/go-clean-template/pkg/logger"
-	"github.com/evrone/go-clean-template/pkg/rabbitmq/rmq_rpc/server"
+	"github.com/evrone/api-servicee/internal/usecase"
+	"github.com/evrone/api-servicee/pkg/logger"
+	"github.com/evrone/api-servicee/pkg/rabbitmq/rmq_rpc/server"
 	"github.com/go-playground/validator/v10"
 )
 

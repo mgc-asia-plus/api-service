@@ -1,7 +1,7 @@
 package v1
 
 import (
-	"github.com/evrone/go-clean-template/internal/controller/restapi/v1/response"
+	"github.com/evrone/api-servicee/internal/controller/restapi/v1/response"
 	"github.com/gofiber/fiber/v2"
 )
 

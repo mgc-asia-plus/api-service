@@ -1,4 +1,4 @@
-module github.com/evrone/go-clean-template
+module github.com/evrone/api-service
 
 go 1.25
 

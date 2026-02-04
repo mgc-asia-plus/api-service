@@ -1,8 +1,8 @@
 package response
 
 import (
-	v1 "github.com/evrone/go-clean-template/docs/proto/v1"
-	"github.com/evrone/go-clean-template/internal/entity"
+	v1 "github.com/evrone/api-servicee/docs/proto/v1"
+	"github.com/evrone/api-servicee/internal/entity"
 )
 
 // NewTranslationHistory -.
