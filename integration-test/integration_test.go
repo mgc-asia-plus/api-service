@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	protov1 "github.com/evrone/api-servicee/docs/proto/v1"
-	natsClient "github.com/evrone/api-servicee/pkg/nats/nats_rpc/client"
-	rmqClient "github.com/evrone/api-servicee/pkg/rabbitmq/rmq_rpc/client"
+	protov1 "github.com/evrone/api-service/docs/proto/v1"
+	natsClient "github.com/evrone/api-service/pkg/nats/nats_rpc/client"
+	rmqClient "github.com/evrone/api-service/pkg/rabbitmq/rmq_rpc/client"
 	"github.com/goccy/go-json"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

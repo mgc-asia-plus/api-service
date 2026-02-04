@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/evrone/api-servicee/pkg/nats/nats_rpc/server"
+	"github.com/evrone/api-service/pkg/nats/nats_rpc/server"
 	"github.com/nats-io/nats.go"
 )
 

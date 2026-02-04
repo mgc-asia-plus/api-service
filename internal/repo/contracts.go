@@ -4,7 +4,7 @@ package repo
 import (
 	"context"
 
-	"github.com/evrone/api-servicee/internal/entity"
+	"github.com/evrone/api-service/internal/entity"
 )
 
 //go:generate mockgen -source=contracts.go -destination=../usecase/mocks_repo_test.go -package=usecase_test

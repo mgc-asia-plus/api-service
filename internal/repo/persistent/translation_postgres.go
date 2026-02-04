@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/evrone/api-servicee/internal/entity"
-	"github.com/evrone/api-servicee/pkg/postgres"
+	"github.com/evrone/api-service/internal/entity"
+	"github.com/evrone/api-service/pkg/postgres"
 )
 
 const _defaultEntityCap = 64

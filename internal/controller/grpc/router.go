@@ -1,9 +1,9 @@
 package grpc
 
 import (
-	v1 "github.com/evrone/api-servicee/internal/controller/grpc/v1"
-	"github.com/evrone/api-servicee/internal/usecase"
-	"github.com/evrone/api-servicee/pkg/logger"
+	v1 "github.com/evrone/api-service/internal/controller/grpc/v1"
+	"github.com/evrone/api-service/internal/usecase"
+	"github.com/evrone/api-service/pkg/logger"
 	pbgrpc "google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )

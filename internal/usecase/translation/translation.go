@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/evrone/api-servicee/internal/entity"
-	"github.com/evrone/api-servicee/internal/repo"
+	"github.com/evrone/api-service/internal/entity"
+	"github.com/evrone/api-service/internal/repo"
 )
 
 // UseCase -.

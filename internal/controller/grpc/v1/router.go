@@ -1,9 +1,9 @@
 package v1
 
 import (
-	v1 "github.com/evrone/api-servicee/docs/proto/v1"
-	"github.com/evrone/api-servicee/internal/usecase"
-	"github.com/evrone/api-servicee/pkg/logger"
+	v1 "github.com/evrone/api-service/docs/proto/v1"
+	"github.com/evrone/api-service/internal/usecase"
+	"github.com/evrone/api-service/pkg/logger"
 	"github.com/go-playground/validator/v10"
 	pbgrpc "google.golang.org/grpc"
 )

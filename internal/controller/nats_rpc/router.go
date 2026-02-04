@@ -1,10 +1,10 @@
 package v1
 
 import (
-	v1 "github.com/evrone/api-servicee/internal/controller/nats_rpc/v1"
-	"github.com/evrone/api-servicee/internal/usecase"
-	"github.com/evrone/api-servicee/pkg/logger"
-	"github.com/evrone/api-servicee/pkg/nats/nats_rpc/server"
+	v1 "github.com/evrone/api-service/internal/controller/nats_rpc/v1"
+	"github.com/evrone/api-service/internal/usecase"
+	"github.com/evrone/api-service/pkg/logger"
+	"github.com/evrone/api-service/pkg/nats/nats_rpc/server"
 )
 
 // NewRouter -.

@@ -6,7 +6,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/evrone/api-servicee/pkg/logger"
+	"github.com/evrone/api-service/pkg/logger"
 	"golang.org/x/sync/errgroup"
 	pbgrpc "google.golang.org/grpc"
 )

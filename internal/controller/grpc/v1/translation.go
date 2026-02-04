@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	v1 "github.com/evrone/api-servicee/docs/proto/v1"
-	"github.com/evrone/api-servicee/internal/controller/grpc/v1/response"
+	v1 "github.com/evrone/api-service/docs/proto/v1"
+	"github.com/evrone/api-service/internal/controller/grpc/v1/response"
 )
 
 func (r *V1) GetHistory(ctx context.Context, _ *v1.GetHistoryRequest) (*v1.GetHistoryResponse, error) {

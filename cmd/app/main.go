@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/evrone/api-servicee/config"
-	"github.com/evrone/api-servicee/internal/app"
+	"github.com/evrone/api-service/config"
+	"github.com/evrone/api-service/internal/app"
 )
 
 func main() {

@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/evrone/api-servicee/pkg/logger"
-	natsrpc "github.com/evrone/api-servicee/pkg/nats/nats_rpc"
+	"github.com/evrone/api-service/pkg/logger"
+	natsrpc "github.com/evrone/api-service/pkg/nats/nats_rpc"
 	"github.com/goccy/go-json"
 	"github.com/nats-io/nats.go"
 	"golang.org/x/sync/errgroup"

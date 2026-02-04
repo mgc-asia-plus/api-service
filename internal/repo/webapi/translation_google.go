@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	translator "github.com/Conight/go-googletrans"
-	"github.com/evrone/api-servicee/internal/entity"
+	"github.com/evrone/api-service/internal/entity"
 )
 
 // TranslationWebAPI -.
