@@ -46,20 +46,20 @@ type (
 
 	// GRPC -.
 	GRPC struct {
-		Port string `env:"GRPC_PORT,required"`
+		Port string `env:"GRPC_PORT"`
 	}
 
 	// RMQ -.
 	RMQ struct {
-		ServerExchange string `env:"RMQ_RPC_SERVER,required"`
-		ClientExchange string `env:"RMQ_RPC_CLIENT,required"`
-		URL            string `env:"RMQ_URL,required"`
+		ServerExchange string `env:"RMQ_RPC_SERVER"`
+		ClientExchange string `env:"RMQ_RPC_CLIENT"`
+		URL            string `env:"RMQ_URL"`
 	}
 
 	// NATS -.
 	NATS struct {
-		ServerExchange string `env:"NATS_RPC_SERVER,required"`
-		URL            string `env:"NATS_URL,required"`
+		ServerExchange string `env:"NATS_RPC_SERVER"`
+		URL            string `env:"NATS_URL"`
 	}
 
 	// Metrics -.
