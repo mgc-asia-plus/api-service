@@ -2,6 +2,7 @@ package config
 
 import (
 	"fmt"
+	"os"
 
 	"github.com/caarlos0/env/v11"
 )
@@ -28,7 +29,7 @@ type (
 
 	// HTTP -.
 	HTTP struct {
-		Port           string `env:"HTTP_PORT,required"`
+		Port           string `env:"HTTP_PORT"` // Falls back to PORT if not set
 		UsePreforkMode bool   `env:"HTTP_USE_PREFORK_MODE" envDefault:"false"`
 		AuthToken      string `env:"HTTP_AUTH_TOKEN" envDefault:""` // if set, require X-Auth-Token header
 	}
@@ -78,6 +79,15 @@ func NewConfig() (*Config, error) {
 	cfg := &Config{}
 	if err := env.Parse(cfg); err != nil {
 		return nil, fmt.Errorf("config error: %w", err)
+	}
+
+	// Railway compatibility: Use PORT if HTTP_PORT is not set
+	if cfg.HTTP.Port == "" {
+		if port := os.Getenv("PORT"); port != "" {
+			cfg.HTTP.Port = port
+		} else {
+			return nil, fmt.Errorf("config error: HTTP_PORT or PORT environment variable is required")
+		}
 	}
 
 	return cfg, nil
